@@ -43,7 +43,7 @@ Not tracked in git (`.gitignore`); the scripts download or rebuild them, except 
 - CartoDB Dark Matter tiles and Natural Earth coastlines - downloaded and cached in
   `output/gis/` on first run.
 
-Credits:
+## Credits
 Data: Argo Global Profile Index (Coriolis), IMOS Australian Ocean Data Network and NOAA/NSIDC; 
 Code and visualisation: Fabrice Jaine (Integrated Marine Observing
 System, IMOS). 
