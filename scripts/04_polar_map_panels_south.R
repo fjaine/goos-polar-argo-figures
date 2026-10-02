@@ -3,9 +3,9 @@
 #
 # GOOS polar Argo map panels - ANTARCTIC region. Companion script:
 # 03_polar_map_panels_north.R (identical design; only geography/labels differ).
-# Derived from the IMOS Argo region map (imos-argo-animations: basemap, palette, tracks)
-# but pole-centred LAEA, 45 deg parallel inscribed in the frame (same scale N and S),
-# GOOS logo, Roboto fonts (bundled in fonts/), no titles.
+# Dark basemap (ETOPO1 + CartoDB Dark Matter), pole-centred LAEA with the 45 deg
+# parallel inscribed in the frame (same scale N and S), GOOS logo, Roboto fonts
+# (bundled in fonts/), no titles.
 #
 # Two classification options, ALL countries' floats, deployed 2001+:
 #   A) Recent deployments: orange = floats deployed LIVE_START_YEAR (2021) onwards;
@@ -98,8 +98,7 @@ ANIM_LON_0 <- 150
 ANIM_POLAR_CRS <- sprintf("+proj=laea +lat_0=-90 +lon_0=%d +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs", ANIM_LON_0)
 
 ## ---- panel size --------------------------------------------------------------
-# 1008 x 1018 px = the map area of the IMOS region map's 1080x1350 canvas (minus margins, title
-# and footer), so the panels match the IMOS deliverables' map size.
+# panel size in px
 MAP_PX_W <- 1008L
 MAP_PX_H <- 1018L
 
@@ -354,7 +353,7 @@ if (!is.null(LOGO_PATH) && file.exists(LOGO_PATH)) {
   log_msg("LOGO_PATH is set (%s) but the file doesn't exist - skipping the logo overlay.", LOGO_PATH)
 }
 
-## ---- legend (adapted from seal_connectivity/scripts/13's build_species_legend) --
+## ---- legend -----------------------------------------------------------------
 # median sea ice extent line (built by scripts/02_sea_ice_extent_lines.R), in GOOS
 # brand green #189669 lightened in OKLCh (same hue, L 0.60 -> 0.82) so it reads on the
 # dark basemap and stays lighter than both track colours
@@ -408,8 +407,8 @@ build_two_way_legend <- function(labels, colours, display_labels = labels, swatc
   panel
 }
 
-# legend text scale: same px-per-legend-px factor as the IMOS region map's legend (longest label
-# "Australia-deployed floats" scaled to 260px), so text size is independent of label length
+# legend text scale: a fixed px-per-legend-px factor (reference label "Australia-deployed
+# floats" -> 260px), so text size is independent of label length
 ref_legend_w <- image_info(build_two_way_legend(c("A", "B"), c(A = "white", B = "white"),
                                                 c(A = "Australia-deployed floats", B = "Other floats")))$width
 LEGEND_SCALE <- 260 / ref_legend_w

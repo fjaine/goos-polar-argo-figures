@@ -72,7 +72,7 @@ build_legend <- function(rows) {  # rows: list of list(label, colour, style = "f
   }
   panel
 }
-# same px-per-legend-px scale factor as the panels (IMOS region map's 260px reference legend)
+# same px-per-legend-px scale factor as the panels (260px reference legend)
 # ...reduced 12% for the composite's shared legend (less overlap with the data)
 COMPOSITE_LEGEND_SHRINK <- 0.88
 LEGEND_SCALE <- COMPOSITE_LEGEND_SHRINK * 260 / image_info(build_legend(list(list(label = "Australia-deployed floats", colour = "white", style = "fill"),
