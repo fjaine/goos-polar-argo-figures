@@ -7,6 +7,8 @@ The final figure is
 `output/figures/GOOS_argo_polar_option_B.png`: Antarctic (left) and Arctic (right) panels showing the last five years of tracks of floats active in July 2026 (orange) over historical tracks (blue), with the 60° parallel and the median winter-maximum sea
 ice extent (2021–2025).
 
+![Argo floats in the Antarctic (left) and Arctic (right): active floats 2021-2026 over historical tracks](output/figures/GOOS_argo_polar_option_B.png)
+
 ## Scripts
 
 Run from the repository root, e.g. `Rscript scripts/03_polar_map_panels_north.R`.
