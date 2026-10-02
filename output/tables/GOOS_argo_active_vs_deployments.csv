@@ -1,0 +1,79 @@
+region,year,deployed,active_1_july,deployed_partial_year
+Global array,2001,271,204,FALSE
+Global array,2002,419,470,FALSE
+Global array,2003,600,839,FALSE
+Global array,2004,841,1257,FALSE
+Global array,2005,996,1957,FALSE
+Global array,2006,902,2473,FALSE
+Global array,2007,743,2823,FALSE
+Global array,2008,860,3150,FALSE
+Global array,2009,536,3250,FALSE
+Global array,2010,807,3161,FALSE
+Global array,2011,940,3239,FALSE
+Global array,2012,988,3492,FALSE
+Global array,2013,846,3582,FALSE
+Global array,2014,1019,3660,FALSE
+Global array,2015,894,3896,FALSE
+Global array,2016,875,3928,FALSE
+Global array,2017,915,3961,FALSE
+Global array,2018,806,3964,FALSE
+Global array,2019,794,4003,FALSE
+Global array,2020,722,3941,FALSE
+Global array,2021,804,3954,FALSE
+Global array,2022,744,4028,FALSE
+Global array,2023,688,3949,FALSE
+Global array,2024,823,3950,FALSE
+Global array,2025,829,4251,FALSE
+Global array,2026,533,4636,TRUE
+Arctic region (north of 60°N),2001,14,9,FALSE
+Arctic region (north of 60°N),2002,12,23,FALSE
+Arctic region (north of 60°N),2003,1,15,FALSE
+Arctic region (north of 60°N),2004,8,12,FALSE
+Arctic region (north of 60°N),2005,26,20,FALSE
+Arctic region (north of 60°N),2006,8,45,FALSE
+Arctic region (north of 60°N),2007,15,30,FALSE
+Arctic region (north of 60°N),2008,26,49,FALSE
+Arctic region (north of 60°N),2009,8,44,FALSE
+Arctic region (north of 60°N),2010,28,50,FALSE
+Arctic region (north of 60°N),2011,17,61,FALSE
+Arctic region (north of 60°N),2012,33,69,FALSE
+Arctic region (north of 60°N),2013,31,93,FALSE
+Arctic region (north of 60°N),2014,26,84,FALSE
+Arctic region (north of 60°N),2015,19,79,FALSE
+Arctic region (north of 60°N),2016,24,73,FALSE
+Arctic region (north of 60°N),2017,31,94,FALSE
+Arctic region (north of 60°N),2018,30,85,FALSE
+Arctic region (north of 60°N),2019,32,99,FALSE
+Arctic region (north of 60°N),2020,26,99,FALSE
+Arctic region (north of 60°N),2021,37,106,FALSE
+Arctic region (north of 60°N),2022,33,121,FALSE
+Arctic region (north of 60°N),2023,29,119,FALSE
+Arctic region (north of 60°N),2024,30,114,FALSE
+Arctic region (north of 60°N),2025,46,111,FALSE
+Arctic region (north of 60°N),2026,19,146,TRUE
+Southern polar region (south of 60°S),2001,1,0,FALSE
+Southern polar region (south of 60°S),2002,4,2,FALSE
+Southern polar region (south of 60°S),2003,17,17,FALSE
+Southern polar region (south of 60°S),2004,4,14,FALSE
+Southern polar region (south of 60°S),2005,28,39,FALSE
+Southern polar region (south of 60°S),2006,14,46,FALSE
+Southern polar region (south of 60°S),2007,66,60,FALSE
+Southern polar region (south of 60°S),2008,40,99,FALSE
+Southern polar region (south of 60°S),2009,23,78,FALSE
+Southern polar region (south of 60°S),2010,22,64,FALSE
+Southern polar region (south of 60°S),2011,20,64,FALSE
+Southern polar region (south of 60°S),2012,46,84,FALSE
+Southern polar region (south of 60°S),2013,54,103,FALSE
+Southern polar region (south of 60°S),2014,25,118,FALSE
+Southern polar region (south of 60°S),2015,60,150,FALSE
+Southern polar region (south of 60°S),2016,33,148,FALSE
+Southern polar region (south of 60°S),2017,45,159,FALSE
+Southern polar region (south of 60°S),2018,60,169,FALSE
+Southern polar region (south of 60°S),2019,50,189,FALSE
+Southern polar region (south of 60°S),2020,46,201,FALSE
+Southern polar region (south of 60°S),2021,46,180,FALSE
+Southern polar region (south of 60°S),2022,73,215,FALSE
+Southern polar region (south of 60°S),2023,51,226,FALSE
+Southern polar region (south of 60°S),2024,67,244,FALSE
+Southern polar region (south of 60°S),2025,101,273,FALSE
+Southern polar region (south of 60°S),2026,46,327,TRUE

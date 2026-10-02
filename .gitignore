@@ -1,0 +1,11 @@
+# large inputs - re-downloaded by the scripts (see README "Data")
+data/
+# caches (tiles, coastlines, raw NSIDC sea ice) and intermediate datasets - rebuilt by the scripts
+output/gis/*
+!output/gis/seaice_extent_lines_*.rds
+output/rds/
+# R / OS clutter
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
